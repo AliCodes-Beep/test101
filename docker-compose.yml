@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  livepie.api:
+    image: livepie.api
+    build:
+      context: ./Livepie/Livepie.Api
+      dockerfile: Dockerfile

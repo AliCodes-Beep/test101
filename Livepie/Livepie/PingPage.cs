@@ -73,6 +73,7 @@ namespace Livepie
 
         void LocationService_OnLocationChanged(LocationChangedEventArgs e)
         {
+
         }
 
         int _counter = 0;
@@ -85,8 +86,8 @@ namespace Livepie
             switch (_counter)
             {
                 case 0:
-                    textLeft = "";
-                    textRight = "";
+                    textLeft = string.Empty;
+                    textRight = string.Empty;
                     _counter++;
                     break;
                 case 1:

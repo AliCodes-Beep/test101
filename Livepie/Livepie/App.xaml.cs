@@ -9,6 +9,8 @@ namespace Livepie
 {
     public partial class App : Application
     {
+        public const string PoiApiUri = "http://";
+
         public App(PingPage pingPage, PoiPage poiPage)
         {
             InitializeComponent();
